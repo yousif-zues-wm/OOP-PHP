@@ -16,8 +16,6 @@ class User{
 
 $p = 'Passwordy';
 
-
 echo User::$pL
-
 
 ?>

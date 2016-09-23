@@ -23,8 +23,8 @@ class mammoth extends m{
 }
 
 $bo = new mammoth();
-$bo->$n 'Hut';
-$bo->$c = 'Cream White';
+$bo->n = 'Hut';
+$bo->c = 'Cream White';
 
 echo $bo->e();
 
