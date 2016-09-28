@@ -55,6 +55,8 @@
         }
         public function single() {
             $this->execute();
+            
+            //this
             return $this->stmt->fetch(PDO::FETCH_ASSOC);
         }
         //Get rows affected by query
